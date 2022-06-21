@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Montserrat';
+    border: none;
+    color: #e98534;
+}
+#root {
+    width: 100%;
+}
+body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    background: #f0f0f0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background: #a438cf;
+    padding: 20px;
+}
+h1 {
+    padding: 15px;
+    color: #f3f3f3;
+}
+h2 {
+    padding: 15px;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    border-radius: 5px;
+    padding: 10px;
+    background: #fdfdfd;
+    color: #963f25;
+}
+button{
+    padding: 5px 5px;
+    border: none;
+    background: none;
+    width: 17px 20px;
+    color: #4a4052;
+    font-size: small;
+    font-weight: 700;
+}
+.searchInput {
+    min-width: 200px;
+}
+.searchResult {
+    background: #b554db;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    color: #f5bf93;
+}
+.searchResult p{
+    color: #f5bf93;
+}
+.addBoxContainer {
+    padding: 15px;
+    background: #ddcbe4;
+}
+.addBoxItem{
+    margin: 0 5px;
+}
+.yourBoxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+.wrapper {
+    max-width: 26rem;
+    min-width: 10rem;
+    background: #ffffff;
+    padding: 15px 30px;
+    margin: 14px 14px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px 3px #0000001a;
+    color: #187018;
+    font-weight: 400;
+    text-align: start;
+    
+}
+.wrapper p {
+    color: #187018;
+    font-weight: 300;
+    text-align: start;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+.wrapper button {
+    padding: 5px 5px;
+    border: none;
+    background: none;
+    width: 17px 20px;
+    
+}
